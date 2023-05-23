@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../ressources/background.png);
+}
+/*Fonts*/
+@font-face{
+    font-family: "BEYNO";
+    font-weight: 400;
+    src: url(../fonts/BEYNO/BEYNO.ttf);
+}
+@font-face {
+    font-family: "Cantarell";
+    src: url(../fonts/Cantarell-Bold.ttf);
+}
+@font-face {
+    font-family: "Panthera";
+    src:url(../fonts/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+    font-family:"wakandaforever";
+    src: url(../fonts/wakandaforever-regular.ttf);
+}
+
+/********************************************************************************************************************/
+
+
+
+
+.proverbe_wakanda{     
+    margin-top: 5%;
+    margin-left: 15%;
+    color: #FBFBFB;
+    font-size: 30px;
+    font-family: wakandaforever; 
+    letter-spacing: 0.3cm;  
+}
+
+.container_corps_enigme{ 
+    width: 80%;             
+    height: 90vh;           
+    display: flex;
+    margin-left: 15%;
+    margin-top: 5%;         
+    justify-items: center;
+    flex-wrap: wrap;        
+    align-items: start;
+}
+
+
+
+
+.container_corps_enigme_question{   
+    width: 600px;
+    height: 600px;
+    padding-top: 20px;
+}
+
+
+.texte_haut_question{      
+    font-size: 20px;
+    color: white;
+}
+
+
+.question_enigme{           
+    color: white;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+            
+}
+.family{
+    font-family: wakandaforever;
+    font-size: 20px;
+}
+
+
+.question_reponse{      
+    margin-top: 35%;
+    color: white;
+    font-size: 20px;
+}
+
+.champ_de_reponse{      
+    width : 70%;       
+}
+.champ_de_reponse input{    
+    padding: 20px;
+    width: 100%;            
+    border-radius: 30px;   
+    border: 1px solid #F2CEF2;
+}
+::placeholder{     
+    color: #F2CEF2;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.envoyer_reponse_enigme{ 
+    margin-top: 20px;  
+    width: 80%;    
+    height: 100px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.envoyer_reponse_enigme a{ 
+    cursor: pointer;
+    text-decoration: none; 
+    color: #27335B;
+    padding: 18px;
+    background-color: #F2CEF2;
+    border-radius: 30px;
+}
+
+
+
+
+
+.container_corps_enigme_elipse{     
+    width: 800px;
+    height: 500px;
+    background-image: url(../ressources/Pantherenigme2.png); 
+    background-size: 99%;       
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_corps_enigme_elipse div{ 
+    width: 70%;
+    height: 30%;
+}
+.container_corps_enigme_elipse div p{
+    color: white;
+    text-align: center;
+}
+
+
+
+/*******************************************/

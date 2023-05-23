@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../ressources/background.png);
+}
+@font-face{
+    font-family: "BEYNO";
+    font-weight: 400;
+    src: url(../fonts/BEYNO/BEYNO.ttf);
+}
+@font-face {
+    font-family: "Cantarell";
+    src: url(../fonts/Cantarell-Bold.ttf);
+}
+@font-face {
+    font-family: "Panthera";
+    src:url(../fonts/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+    font-family:"wakandaforever";
+    src: url(../fonts/wakandaforever-regular.ttf);
+}
+
+
+.container_overflow{
+    width: 95%;
+    margin: 10px auto;
+    margin-top: -20px;
+    margin-left: 5%;
+    display: grid;
+
+    grid-template-rows: repeat(1, 150px);      
+    grid-template-columns: repeat(2,150px) 1fr; 
+
+}
+
+.choses1{
+    grid-row: 1 / 2;                          
+    grid-column: 1 / 2;                         
+    z-index: 1;
+    height: 430px;
+    width: 380px;
+    margin-left: 50px;
+    display: flex; 
+}
+
+.photo_anvance{    
+    width: 98%;
+    height: 100%;
+}
+
+.photo_anvance img{         
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+
+   
+}
+
+.choses2{
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+    height: 430px;
+    /*Centrer Bloc overflow*/
+    display: flex;
+    align-items: center;
+}
+
+.photo_overflow{
+    width: 100%;
+    height: 80%;
+    background-color: #041639;
+    display: flex;
+    align-items: center;
+}
+.wrapper{               
+    display: flex;
+    overflow-y: auto;  
+    margin-left: 30%;
+}
+
+.wrapper::-webkit-scrollbar{       
+    height: 3px;
+    background-color: #041639;   
+}
+.wrapper::-webkit-scrollbar-thumb{ 
+    height: 3px;
+    width: 10px;
+    background-color: white;    
+}
+
+.wrapper .cadre{                    
+    min-width: 380px;
+    height: 341px;
+    background-color: #041639;  
+}
+
+.cadre1 h1{
+    text-align: justify;
+    color: #9E91B7;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: Beyno;
+}
+.cadre1 p{
+    text-align: justify;
+    color: #d5d7da;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+.cadre1 a{
+    text-align: justify;
+    color: #D4D7DD;
+    padding-left: 30px;
+    text-decoration: none;
+}
+    
+.cadre2 {
+    background-image: url(../ressources/Pantherhome3.png);
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.cadre3 h1{
+    text-align: justify;
+    color: #9E91B7;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: Beyno;
+}
+.cadre3 p{
+    text-align: justify;
+    color: #c7cfd8;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+.cadre3 a{
+    text-align: justify;
+    color: #D4D7DD;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.cadre4 {
+    background-image: url(../ressources/Pantherhome4.png);
+    background-position-x: left;
+    background-repeat: no-repeat;
+}
+

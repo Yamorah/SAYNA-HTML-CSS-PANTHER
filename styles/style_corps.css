@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../ressources/background.png);
+}
+/*Fonts*/
+@font-face{
+    font-family: "BEYNO";
+    font-weight: 400;
+    src: url(../fonts/BEYNO/BEYNO.ttf);
+}
+@font-face {
+    font-family: "Cantarell";
+    src: url(../fonts/Cantarell-Bold.ttf);
+}
+@font-face {
+    font-family: "Panthera";
+    src:url(../fonts/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+    font-family:"wakandaforever";
+    src: url(../fonts/wakandaforever-regular.ttf);
+}
+
+/********************************************************************************************************************/
+
+
+
+
+
+/* Mise en forme du corps*/
+.corps_accueil{
+    margin-top: 20%;
+    width: 90%;
+    margin-left: 5%;
+    display:flex;
+    justify-content :center;
+    align-items : center;
+    flex-wrap : wrap;
+	align-content: flex-start; 
+}
+
+.corps_accueil div{
+    width: 88%;
+    height: 200px;
+   
+}
+
+
+
+/*********************************************************************/
+/*Mise en forme du texte Naissance d’un prince et un heros vengeur*/
+
+.corps_accueil_texte{
+    margin: 20px;
+    padding-left: 10px;
+    text-align: justify;
+
+}
+
+.corps_accueil_texte{        
+    margin: 20px;
+    padding-left: 10px;
+    text-align: justify;
+}
+.corps_accueil_texte p{       
+    color: #adacb3;
+    font-size: 18px;
+}
+.corps_accueil_texte h1{
+    color: #adacb3;
+    font-family: BEYNO;
+    font-size: 45px;
+    padding-top: 25px;
+
+}      
+    
+
+
+
+.corps_accueil_texte div{
+    width: 850px;
+    height: 600px;
+    margin-top: -300px;
+}
+
+
+
+/******************************************************************/
+/*Mise ne forme bloc T'Chella*/ 
+.corps_accueil_Chella{
+    display: grid; 
+    grid-template-rows: repeat(2, 150px); 
+    grid-template-columns: repeat(1,150px);
+    margin-top: -600px;
+}
+
+.corps_accueil_Chella div{ 
+    width: 360px;
+    height: 500px;
+}
+
+#Tchella_photo{           
+    grid-row: 1 / 2;        
+    grid-column: 1 / 2;    
+    background-image: url(../ressources/Pantherhome5.png);
+    background-position: center;
+    z-index: 1;
+    border-radius: 10px;
+    /* margin-left: 100%; */
+    margin-left: 1055px;
+    
+}
+#Tchella_details{          
+    grid-row: 1 / 2;        
+    grid-column: 1 / 2;     
+    height: 700px;
+    width: 460px;
+    margin-top: 200px;
+    border-radius: 10px;
+    margin-left: 1000px;
+    background-color: #EBE9FF;
+}
+#Tchella_details h1 {
+    margin-top: 350px;
+    text-align: center;
+}
+#Tchella_details a{
+    text-decoration: none;
+    color: white;               
+    padding: 10px 10px;
+    text-decoration: double;
+    background-color: #3D2DA6;  
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    font-size: large;
+
+}
+.bouton_gauche{                    
+    margin-left: 70px;
+}
+#Tchella_details div p{
+    margin-left: 70px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.premiere_lettre{
+    margin-top: 20px;
+    font-size: large;
+}
+.second{
+    margin-left: 1200px;
+    margin-top: 700px;
+
+}

@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../ressources/background.png);
+}
+/*Fonts*/
+@font-face{
+    font-family: "BEYNO";
+    font-weight: 400;
+    src: url(../fonts/BEYNO/BEYNO.ttf);
+}
+@font-face {
+    font-family: "Cantarell";
+    src: url(../fonts/Cantarell-Bold.ttf);
+}
+@font-face {
+    font-family: "Panthera";
+    src:url(../fonts/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+    font-family:"wakandaforever";
+    src: url(../fonts/wakandaforever-regular.ttf);
+}
+
+/********************************************************************************************************************/
+
+       
+
+
+/*Mise en forme formulaire*/
+.formulaire{                
+    width: 97.5%;       
+    padding: 0px;
+    display:flex;
+    justify-content : center;
+    background-image: url(../ressources/Pantherhome7.png);
+    background-position: top; 
+    background-repeat: no-repeat;
+    align-items : center;
+    flex-wrap : wrap;
+	align-content: flex-start; 
+}
+.container_formulaire{      
+    width: 800px;
+    height: 700px;
+    background-color: rgba(255,255,255,0.3);
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    justify-content: center;
+    text-align: center;
+    color: #021740;
+    margin-top: 200px;
+}
+
+/*Bloc form*/
+.bloc{              
+    width: 50%;     
+    height: 50%; 
+       
+}
+.bloc div input{    
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #021740;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 20px; 
+    color: #021740;
+    background: none;  
+}
+
+::placeholder{
+color: #182b51;
+}
+.champ_message{         
+    height: 100px;
+    
+}
+.bloc div a{           
+    text-decoration: double;
+    font-size: 22px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    color:#021740;
+    text-decoration: double;
+    background-color:#c285bf;
+}
+.envoyer {
+    margin-top: 30px;
+}

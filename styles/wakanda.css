@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../ressources/background.png);
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../ressources/background.png);
+}
+/*Fonts*/
+@font-face{
+    font-family: "BEYNO";
+    font-weight: 400;
+    src: url(../fonts/BEYNO/BEYNO.ttf);
+}
+@font-face {
+    font-family: "Cantarell";
+    src: url(../fonts/Cantarell-Bold.ttf);
+}
+@font-face {
+    font-family: "Panthera";
+    src:url(../fonts/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+    font-family:"wakandaforever";
+    src: url(../fonts/wakandaforever-regular.ttf);
+}
+/********************************************************************************************************************/
+
+
+.home_wakanda{
+    width: 100%;
+    height: 80vh;
+    display: flex; 
+    align-items: center;
+    background-image: url(../ressources/Pantherwakanda1.png);  
+    background-position: center;
+}
+
+
+.lettre_home_wakanda{
+    width: 700px;
+    height: 400px;
+    margin-left: 20%;
+    padding: 20px;
+}
+
+.lettre_home_wakanda h1{   
+    color:#9E91B7;
+    font-family:BEYNO; 
+    font-size: 60px;
+                            
+}
+
+.lettre_home_wakanda h2{  
+    color: #9E91B7;
+    font-family: wakandaforever;
+    font-size: 30px;
+                        
+}
+.lettre_home_wakanda p{ 
+    color: white;
+    font-family: sans-serif;
+    padding-right: 40%;
+    font-size: 15px;
+    text-align: left;
+    text-align: justify;
+}
+.container_corps_wakanda{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../ressources/Pantherwakanda2.png);
+    background-position:top ;
+    background-repeat: no-repeat;
+}
+
+.corps_wakanda{
+    width:800px;
+    margin: 10px;
+    height: 200vh;
+}
+
+.corps_wakanda1 h1{
+    color: #9E91B7;
+    margin: 30px;
+    font-size: 25px;
+    font-family: BEYNO;
+}
+
+.corps_wakanda1 p{
+    color: white;
+    text-align: left;
+    text-align: justify;
+    margin: 30px;
+    font-size: 18px;
+}
+
+.bloc_video{
+    margin: 30px;
+    width: 700px;
+    height: 320px;
+    background: color #17253f;
+}
+
+.corps_wakanda2 h1{
+    color: #9E91B7;
+    margin: 30px;
+    font-size: 25px;
+    font-family: BEYNO;
+
+}
+
+.corps_wakanda2 p{
+    color: white;
+    text-align: left;
+    text-align: justify;
+    margin: 30px;
+    font-size: 18px;
+
+}
+
+.bloc_photo_wakanda{
+    margin: 30px;
+    width: 735px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.bloc_photo_wakanda img{
+    height: 100%;
+    width: 70%;
+}

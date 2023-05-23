@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACK PANTHER PROJECT</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  
+
+    <!-- header avec les barres de navigation -->
+    <header>
+
+        <!-- bloc à gauche -->
+         <div class="logo">
+           <img src="ressources/icon_SAYNA.png" alt="sayna">
+           <img src="ressources/icon_x.png" alt="x">
+           <img src="ressources/icon_MARVEL.png" alt="marvel">
+         </div>
+
+         <!-- Nav à horizontale -->
+         <nav class="horizontale">
+          <a href="#">ACCEUIL</a>
+          <a href="#">WAKANDA</a>
+          <a href="#">ENIGME</a>
+         </nav>
+  </header>
+
+   <!-- Nav Vertical -->
+   <nav class="vertical">
+    <div class="items items1">
+      <a href="#">
+        <img src="ressources/icon_facebook.png" alt="facebook">
+      </a>
+    </div>
+
+    <div class="items">
+      <a href="#">
+        <img src="ressources/icon_instagram.png" alt="instagram">
+      </a>
+    </div>
+
+    <div class="items">
+      <a href="#">
+        <img src="ressources/icon_twitter.png" alt="twitter">
+      </a>
+    </div>
+
+    <div class="items">
+      <a href="#">
+        <img src="ressources/icon_tiktok.png" alt="tiktok">
+      </a>
+    </div>
+   </nav>
+    <div class="grid-container">
+      <div class="grid item">
+        <h1 class="bp">
+          BLACK PANTHER
+        </h1>
+        <h4 class="wf">
+          WAKANDA FOREVER
+        </h4>
+        <p class="texte">
+          En plus d'être un film qui fait la part belle aux héroïnes, Black Panther rend 
+          hommage aux cultures africaine et afro américaine. On y évoque le 
+          racisme, la colonisation et les violences contre les afro américains. 
+          
+          Ce film marque tout une génération, c’est 100% africain et c’est parfait .
+        </p>
+        <a href="#">Voir plus > </a>
+      </div>
+      <div class="grid item1">
+       <img src="ressources/Pantherhome1..png" alt="">
+      </div>
+
+
+      
+      
+    </div>
+
+
+
+
+</body>
+</html>

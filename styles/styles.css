@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../ressources/background.png");
+}
+@font-face{
+    font-family: "BEYNO";
+    font-weight: 400;
+    src: url(../fonts/BEYNO/BEYNO.ttf);
+}
+@font-face {
+    font-family: "Cantarell";
+    src: url(../fonts/Cantarell-Bold.ttf);
+}
+@font-face {
+    font-family: "Panthera";
+    src:url(../fonts/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+    font-family:"wakandaforever";
+    src: url(../fonts/wakandaforever-regular.ttf);
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 10%;
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    background-color: rgb(#021740 , #07338C , #3D2DA6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horizontale{
+    margin-right: 20%;
+    display:flex
+}
+
+.horizontale a{
+    padding: 5%;
+    font-size: 20px;
+    font-family: BEYNO;
+    color: white;
+}
+
+
+.vertical{
+    position: fixed; 
+    width: 35px;
+    margin-left: 5%;
+    margin-top: 0%;
+    border-left: 2px solid #DF99F2;
+    border-right: 1px solid #DF99F2;
+
+}
+
+
+.items{
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(#021740 , #07338C , #3D2DA6);
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 60px; background-image: url("../ressources/background.png");
+}
+
+.items img{
+    height: 30px;
+    padding: 2px;
+    
+}
+
+.items1{
+    margin-top: 100px;
+}
+
+.horizontale :hover{
+    /* background-color: #DF99F2; */
+    border-bottom: #DF99F2 solid 2px;
+    border-top: #DF99F2 solid 2px;
+}
+.grid-container{
+    display: inline-flex;
+    margin-top: 100px;
+    width: 100%;
+    margin-left: 250px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.img1{
+    object-fit: contain;
+    width: 100%;
+}
+.bp{
+    font-family: Panthera;
+    font-size: 60px;
+    color: #9E91B7;
+    margin-top: 200px;
+    
+}
+.wf{
+    font-family: BEYNO;
+    font-size: 35px;
+    color: #9E91B7;
+    margin-top: 50px;
+    
+}
+.texte{
+    font-family: Cantarell;
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.voir{
+    color: #9E91B7;
+    font-size: 25px;
+}
+
